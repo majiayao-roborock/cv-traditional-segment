@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="active_contour"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\utils\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gdc_base">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/libgdc_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 gdc_base"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gdc_base/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/libgdc_base.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 gdc_base/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/libheightmap.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/libheightmap.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvlset">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/liblvlset.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lvlset"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvlset/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/liblvlset.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 lvlset/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cv">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_cv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_cv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cv/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_cv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_cv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_lbf">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_lbf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_lbf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_lbf/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_lbf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_lbf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_height_map">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_height_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_height_map"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_height_map/fast">
+				<Option output="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/test_height_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src"/>
+					<Add directory="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_height_map/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/gradient_descent_base.cpp">
+			<Option target="gdc_base"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/gradient_descent_base.h">
+			<Option target="gdc_base"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/height_map.cpp">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/height_map.h">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_cv.cpp">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_cv.h">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_lbf.cpp">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_lbf.h">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_utils.cpp">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/level_set_utils.h">
+			<Option target="lvlset"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/test/test_cv.cpp">
+			<Option target="test_cv"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/test/test_height_map.cpp">
+			<Option target="test_height_map"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/test/test_lbf.cpp">
+			<Option target="test_lbf"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils/display.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils/display.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils/tictoc.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils/tictoc.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

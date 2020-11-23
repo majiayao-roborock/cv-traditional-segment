@@ -1,0 +1,2 @@
+/usr/bin/ar qc libheightmap.a  CMakeFiles/heightmap.dir/height_map.cpp.o
+/usr/bin/ranlib libheightmap.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblvlset.a  CMakeFiles/lvlset.dir/level_set_utils.cpp.o CMakeFiles/lvlset.dir/level_set_cv.cpp.o CMakeFiles/lvlset.dir/level_set_lbf.cpp.o
+/usr/bin/ranlib liblvlset.a

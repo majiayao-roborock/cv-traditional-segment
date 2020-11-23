@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgdc_base.a  CMakeFiles/gdc_base.dir/gradient_descent_base.cpp.o
+/usr/bin/ranlib libgdc_base.a

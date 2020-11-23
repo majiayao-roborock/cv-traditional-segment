@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/gradient_descent_base.cpp
+gradient_descent_base.h
+/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/gradient_descent_base.h
+algorithm
+-
+iostream
+-
+
+/home/jiayao/Desktop/cv-hw/HW_ch3/CppCode/src/gradient_descent_base.h
+limits
+-
+string
+-
+
